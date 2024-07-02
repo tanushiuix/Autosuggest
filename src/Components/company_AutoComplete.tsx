@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from "react";
 import { debounce } from "../utils/data";
-import { updateUrlParams } from "./UpdateUrl"; // Assuming this handles URL update properly
+import { updateUrlParams } from "./update_Url"; // Assuming this handles URL update properly
 import { fetchCompanies } from "../service/companies";
 
 export interface Company {

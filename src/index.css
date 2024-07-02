@@ -1,14 +1,14 @@
-body{
- background-color: black;
- color: wheat;
+body {
+  background-color: black;
+  color: wheat;
 }
-.heading{
-  margin-left:450px;
+.heading {
+  margin-left: 450px;
 }
-.autocomplete-container{
- margin-left: 500px;
+.autocomplete-container {
+  margin-left: 500px;
 }
-.autocomplete-container input{
+.autocomplete-container input {
   width: 300px;
   height: 30px;
   padding: 3px;
@@ -18,22 +18,25 @@ body{
   border-radius: 3px;
   border: none;
 }
-.autocomplete-results{
+.autocomplete-results {
   margin-top: 30px;
 }
-.items_display{
+.items_display {
   width: 350px;
   border: 1px solid black;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 30px;
   background-color: aliceblue;
 }
-.company-logo{
-  width: 100px;
-  height: 100px;
+.company-logo {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
 }
-.company_name{
+.company_name {
   color: black;
   margin-right: 10px;
   font-size: 18px;
